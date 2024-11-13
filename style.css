@@ -1,0 +1,60 @@
+body{
+    background-color: white;
+}
+
+/* For screens between 600px and 1024px */
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+      font-size: 18px;
+    }
+}  
+.navbar{
+    margin-bottom: 15px;
+}
+.btn{
+    background-color: rgb(107, 100, 100);
+    color: bisque;
+}
+.carousel-item{
+    height: 500px;
+}
+h3,p{
+    text-align: end;
+  justify-items: flex-end;
+   margin-left: -680px;
+   margin-top: -500px;
+}
+.carousel-caption{
+    text-align: start;
+  justify-items: flex-start;
+   margin-right: 20px;
+   margin-bottom: -500px;
+}
+@media (max-width: 576px) {
+    .carousel-caption h3 {
+      font-size: 1.5rem; /* Smaller text size for mobile */
+    }
+    .carousel-caption p {
+      font-size: 1rem; /* Adjust paragraph size for mobile */
+    }
+  
+    .carousel-control-prev-icon, 
+    .carousel-control-next-icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+.nav-item{
+  font-weight: 600;
+}
+@media (max-width: 576px) {
+  h1 {
+    font-size: 2rem; /* Smaller font for headings on mobile */
+  }
+  .card h4 {
+    font-size: 1rem; /* Reduce font size inside cards on mobile */
+  }
+  .btn {
+    font-size: 0.9rem; /* Slightly smaller buttons */
+  }
+}
